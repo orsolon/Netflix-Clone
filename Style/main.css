@@ -12,16 +12,16 @@
 
 body {
  background: var(--preta);
- font-family: 'Arial';
+ font-family: 'Roboto', sans-serif;
  color: whitesmoke;
 }
 
-header .logo {
-color: var(--vermelho);
-font-family: 'Arial Black', 'Times New Roman', Times, serif;
-font-size: 40px;
 
+#logo {
+    width: 200px;
+    padding: 8px;
 }
+
 
 header nav a {
     text-decoration: none;
@@ -57,11 +57,14 @@ header .container{
 .banner .descricao {
     margin-bottom: 40px;
     margin-top: 10px;
+    max-width: 60%;
 }
 
 .titulo {
     font-size: 40px;
     margin-top: 15%;
+    margin-bottom: 20px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .btn {

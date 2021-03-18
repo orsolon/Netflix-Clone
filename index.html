@@ -10,13 +10,16 @@
     <link rel="stylesheet" href="Style/owl/owl.theme.default.min.css">
     <!--responsive css-->
     <link rel="stylesheet" href="Style/responsive.css">
+    <!--fonte-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&family=Roboto&display=swap" rel="stylesheet">
 
     <title>NetFlix Clone</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">NETFLIX</h2>
+            <img id="logo" src="./img/MyNetFlix.png" alt="">
             <nav>
                 <a href="#">Inicio</a>
                 <a href="#">Serie</a>
@@ -28,15 +31,20 @@
     <main>
         <div class="banner">
             <div class="container">
-                <h3 class="titulo">THE CROWN</h3>
+                <h3 class="titulo">THE <b>CROWN</b></h3>
                 <p class="descricao">Esta série dramática segue a política, rivalidades e relacionamentos da rainha Elizabeth II, e os eventos que fizeram a história.</p>
                 <div class="botoes">
-                    <button role="button" class="btn">
+                    <a target="blank" href="https://www.youtube.com/watch?v=dFZC-_T_irA">
+                        <button role="button" class="btn">
                         <i class="fas fa-play"></i>
-                        ASSISTIR AGORA</button>
-                    <button role="button" class="btn">
-                        <i class="fas fa-info-circle"></i>
-                        Mais Informações</button>
+                        ASSISTIR AGORA</button></a>
+                    <a href="info.html" target='_blank'>
+                        <button role="button" class="btn" >
+                            <i class="fas fa-info-circle"></i>
+                            Mais Informações
+                        </button>
+                    </a>
+                    
                 </div>
             </div>
         </div> 
@@ -56,6 +64,8 @@
             
         </div>
     </div>
+
+    
 
     <script src="https://kit.fontawesome.com/b32368f37e.js" crossorigin="anonymous"></script>
     <script src="js/owl/jquery.min.js"></script>

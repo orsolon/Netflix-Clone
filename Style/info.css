@@ -1,0 +1,18 @@
+body{
+    background-color: #141414;
+    color: whitesmoke;
+}
+
+.container {
+   padding: 30px;
+}
+
+.temporada {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.temporada_descricao{
+    padding-left: 15px;
+}
